@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://felixlinker.de/works/</loc>
+    <lastmod>2017-12-17T16:31:06+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://felixlinker.de/de/works/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://felixlinker.de/works/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/</loc>
+    <lastmod>2017-12-17T16:14:04+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://felixlinker.de/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://felixlinker.de/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://felixlinker.de/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://felixlinker.de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://felixlinker.de/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://felixlinker.de/tags/"
+                />
+  </url>
+  
+</urlset>
