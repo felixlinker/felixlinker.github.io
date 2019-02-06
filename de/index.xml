@@ -17,9 +17,7 @@
       <pubDate>Fri, 22 Dec 2017 00:09:06 +0100</pubDate>
       
       <guid>http://felixlinker.de/de/works/</guid>
-      <description>AGM-Style Contraction in Dung-Logics for Argumentation Frameworks Beschreibung Hierbei handelt es sich um meine Bachelorarbeit, in der es um Argumenation Frameworks und die AGM theory of belief revision geht. Ich erweitere eine Veröffentlichung von R. Baumann und G. Brewka, in der Implementierungen für Expansion- und Revision-Operatoren in Dung-Logiken für Argumentation Frameworks angegeben wurden. In meiner Arbeit zeige ich, dass es keinen Contraction-Operator für Dung-Logiken geben kann.
-Download
-Facebook Network Analysis of News Pages Beschreibung Im Wintersemester 2016&amp;frasl;17 war ich Leiter des Projekts &amp;ldquo;Facebook Network Analysis of News Pages&amp;rdquo; im Rahmen des Moduls Introduction to Digital Humanities.</description>
+      <description>Industrial Benchmark for Fuzzy Particle Swarm Reinforcement Learning Beschreibung In diesem Projekt habe ich den Ansatz aus Hein et al., 2017 namens Fuzzy Particle Swarm Reinforcement Learning (FPSRL) zur Optimiung von Controller Strategien umgesetzt, implementiert und gebenchmarked. Die Benchmark wurde durch die Industrial Benchmark (IB) realisiert, der Methode folgend, die die Autoren selbst in Hein, Udluft, Runkler, 2018 zum Benchmarken eines ähnlichen Ansatzes, der Genetische Programmierung anstelle von Partikelschwarm Optimierung verwendet, vorschlugen.</description>
     </item>
     
   </channel>
