@@ -12,39 +12,82 @@
     
     
     <item>
-      <title>TWIG</title>
-      <link>http://felixlinker.de/works/twig/</link>
-      <pubDate>Sun, 10 Mar 2019 16:25:14 +0100</pubDate>
+      <title>Master&#39;s thesis: Formal verification of an instruction set architecture</title>
+      <link>http://felixlinker.de/works/msc_riscv/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://felixlinker.de/works/twig/</guid>
-      <description>&lt;p&gt;TWIG is a RDF-benchmark generator simulating twitter.&lt;/p&gt;</description>
+      <guid>http://felixlinker.de/works/msc_riscv/</guid>
+      <description>I started writing on my master&amp;rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
+I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties.</description>
     </item>
     
     <item>
-      <title>Facebook Network Analysis of News Pages</title>
-      <link>http://felixlinker.de/works/facebook_analysis/</link>
-      <pubDate>Sun, 10 Mar 2019 16:25:08 +0100</pubDate>
+      <title>Publication: AGM Meets Abstract Argumentation: Contraction for Dung Frameworks</title>
+      <link>http://felixlinker.de/works/jelia/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://felixlinker.de/works/facebook_analysis/</guid>
-      <description>&lt;p&gt;This project was about finding clusters of news pages on facebook looking at their users.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>AGM-Style Contraction in Dung-Logics for Argumentation Frameworks</title>
-      <link>http://felixlinker.de/works/ba_agm/</link>
-      <pubDate>Sun, 10 Mar 2019 16:24:51 +0100</pubDate>
-      
-      <guid>http://felixlinker.de/works/ba_agm/</guid>
-      <description>&lt;p&gt;This is my bachelor thesis about Argumentation Frameworks and non-monotonic reasoning.&lt;/p&gt;</description>
+      <guid>http://felixlinker.de/works/jelia/</guid>
+      <description>In May of 2019 I was lucky to attend the 16th Edition of the European Conference on Logics in Artificial Intelligence in Rende, Italy to present the paper that my former supervisor, Ringo Baumann, and me wrote about the results of my bachelor&amp;rsquo;s thesis.
+Link to the research gate entry of the paper</description>
     </item>
     
     <item>
       <title>Industrial Benchmark for Fuzzy Particle Swarm Reinforcement Learning</title>
       <link>http://felixlinker.de/works/ib_fpsrl/</link>
-      <pubDate>Sun, 10 Mar 2019 16:24:42 +0100</pubDate>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/ib_fpsrl/</guid>
-      <description>&lt;p&gt;This project is a benchmark for the Fuzzy Particle Swarm Reinforcement Learning algorithm.&lt;/p&gt;</description>
+      <description>In January of 2019 I implemented a project to benchmark the approach to controller policy optimization proposed by Hein et al., 2017 called Fuzzy Particle Swarm Reinforcement Learning (FPSRL). In that paper, the authors propose a method to generate interpretable policies for industrial controllers that are as performant as non-interpretable policies by using neural networks and particle swarm optimization.
+I applied the Industrial Benchmark (IB) to that approach thereby following a methodology the authors themselves used to benchmark a similar approach in Hein, Udluft, Runkler, 2018 which followed the same idea but used genetic programming instead of particle swarm optimization.</description>
+    </item>
+    
+    <item>
+      <title>Bachelor&#39;s thesis: Erkenntnis und Normativität - Eine Auseinandersetzung mit Platon</title>
+      <link>http://felixlinker.de/works/ba_plato/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://felixlinker.de/works/ba_plato/</guid>
+      <description>In the summer of 2018 I wrote my second bachelor&amp;rsquo;s thesis - this time it was for my studies of Philosophy. It was about two works of Plato: the Republic and Phaido. I investigated how the fields of ontology, normativity or ethics and epistemology are linked in the philosophy of Plato.
+I wrote this thesis in German but if you still are interested in its content, you can find a download link below.</description>
+    </item>
+    
+    <item>
+      <title>Coriolis</title>
+      <link>http://felixlinker.de/works/coriolis/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://felixlinker.de/works/coriolis/</guid>
+      <description>In July of 2018 I authored my first commit to the open source project coriolis. coriolis is an online service maintained by the players of the MMORPG-style space-sim Elite: Dangerous. It allows players to plan how they want to equip and modify their space-ships and give them detailed statistics. It&amp;rsquo;s a plain front-end JavaScript project that is written with React.
+In October of 2018 the team of coriolis decided that the code-base needed a major re-work.</description>
+    </item>
+    
+    <item>
+      <title>Bachelor&#39;s thesis: AGM-Style Contraction in Dung-Logics for Argumentation Frameworks</title>
+      <link>http://felixlinker.de/works/ba_agm/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://felixlinker.de/works/ba_agm/</guid>
+      <description>In the summer of 2017 I wrote my bachelor&amp;rsquo;s thesis for Computer Science. It was all about Argumenation Frameworks and the AGM theory of belief revision, i.e. formal logics, knowledge representation and non-monotonic reasoning.
+I enhanced on the works of R. Baumann and G. Brewka who gave implementations for expansion and revision in Dung Logics for Argumentation Frameworks. I was able to show that there is no contraction operator in Dung Logics.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Network Analysis of News Pages</title>
+      <link>http://felixlinker.de/works/facebook_analysis/</link>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://felixlinker.de/works/facebook_analysis/</guid>
+      <description>In the winter semester of 2016 I was the leader of the university project &amp;ldquo;Facebook Network Analysis of News Pages&amp;rdquo; as part of Introduction to Digital Humanities. We tried to investigate the claim that most people experience facebook only in their filter-bubble/echo-chamber. By using data open to access via the facebook Graph API and storing it anonymously in a graph database using ArangoDB, we found that there are indeed such filter-bubbles that are closely linked to parties found in the german parliament.</description>
+    </item>
+    
+    <item>
+      <title>TWIG</title>
+      <link>http://felixlinker.de/works/twig/</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://felixlinker.de/works/twig/</guid>
+      <description>While I was employed at the ASKW in 2016, I modelled and developed a RDF-benchmark generator that aims at providing the user with a pseudo-random true-to-life RDF-dataset to test RDF-algorithms with. It can be configured via a seed and simulates twitter the results of which are stored in RDF.
+Link to the github-repository</description>
     </item>
     
   </channel>

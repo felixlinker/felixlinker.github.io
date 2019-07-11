@@ -3,39 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://felixlinker.de/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/msc_riscv/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/jelia/</loc>
+    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://felixlinker.de/works/</loc>
     <lastmod>2019-03-10T17:24:56+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://felixlinker.de/</loc>
-    <lastmod>2019-03-10T16:25:14+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://felixlinker.de/works/twig/</loc>
-    <lastmod>2019-03-10T16:25:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://felixlinker.de/works/facebook_analysis/</loc>
-    <lastmod>2019-03-10T16:25:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://felixlinker.de/works/ba_agm/</loc>
-    <lastmod>2019-03-10T16:24:51+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://felixlinker.de/works/ib_fpsrl/</loc>
-    <lastmod>2019-03-10T16:24:42+01:00</lastmod>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/ba_plato/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/coriolis/</loc>
+    <lastmod>2018-07-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://felixlinker.de/about/</loc>
     <lastmod>2017-12-17T16:14:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/ba_agm/</loc>
+    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/facebook_analysis/</loc>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://felixlinker.de/works/twig/</loc>
+    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
