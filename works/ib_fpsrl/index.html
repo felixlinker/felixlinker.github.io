@@ -4,21 +4,20 @@
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author"
-    content="Felix Linker ">
-<meta name="description"
-    content="In January of 2019 I implemented a project to benchmark the approach to controller policy optimization proposed by Hein et al., 2017 called Fuzzy Particle Swarm Reinforcement Learning (FPSRL). In that paper, the authors propose a method to generate interpretable policies for industrial controllers that are as performant as non-interpretable policies by using neural networks and particle swarm optimization.
+<meta name="author" content="Felix Linker ">
+<meta name="description" content="In January of 2019 I implemented a project to benchmark the approach to controller policy optimization proposed by Hein et al., 2017 called Fuzzy Particle Swarm Reinforcement Learning (FPSRL). In that paper, the authors propose a method to generate interpretable policies for industrial controllers that are as performant as non-interpretable policies by using neural networks and particle swarm optimization.
 I applied the Industrial Benchmark (IB) to that approach thereby following a methodology the authors themselves used to benchmark a similar approach in Hein, Udluft, Runkler, 2018 which followed the same idea but used genetic programming instead of particle swarm optimization." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
 <link rel="canonical" href="http://felixlinker.de/works/ib_fpsrl/" />
 
 
-<title>
-    
-    Industrial Benchmark for Fuzzy Particle Swarm Reinforcement Learning :: Felix Linker 
-    
-</title>
+    <title>
+        
+            Industrial Benchmark for Fuzzy Particle Swarm Reinforcement Learning :: Felix Linker 
+        
+    </title>
 
 
 
@@ -27,30 +26,21 @@ I applied the Industrial Benchmark (IB) to that approach thereby following a met
 
 
 
-<link rel="stylesheet" href="/main.min.d90905eb29b71569a516566cd9662312bee9ab021c760de6949cdc92d6688be9.css">
+<link rel="stylesheet" href="/main.min.7bfbbe12786fa0ded4b4c0d792cbb36a5bd0bdb0b856dde57aa7b1f6fe0f2b87.css">
 
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
-<link rel="shortcut icon" href="/favicon.ico">
-<meta name="theme-color" content="#252627">
+
 <meta itemprop="name" content="Industrial Benchmark for Fuzzy Particle Swarm Reinforcement Learning">
 <meta itemprop="description" content="In January of 2019 I implemented a project to benchmark the approach to controller policy optimization proposed by Hein et al., 2017 called Fuzzy Particle Swarm Reinforcement Learning (FPSRL). In that paper, the authors propose a method to generate interpretable policies for industrial controllers that are as performant as non-interpretable policies by using neural networks and particle swarm optimization.
 I applied the Industrial Benchmark (IB) to that approach thereby following a methodology the authors themselves used to benchmark a similar approach in Hein, Udluft, Runkler, 2018 which followed the same idea but used genetic programming instead of particle swarm optimization.">
-
-
 <meta itemprop="datePublished" content="2019-01-30T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-01-30T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="119">
 
 
 
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Industrial Benchmark for Fuzzy Particle Swarm Reinforcement Learning"/>
 <meta name="twitter:description" content="In January of 2019 I implemented a project to benchmark the approach to controller policy optimization proposed by Hein et al., 2017 called Fuzzy Particle Swarm Reinforcement Learning (FPSRL). In that paper, the authors propose a method to generate interpretable policies for industrial controllers that are as performant as non-interpretable policies by using neural networks and particle swarm optimization.
 I applied the Industrial Benchmark (IB) to that approach thereby following a methodology the authors themselves used to benchmark a similar approach in Hein, Udluft, Runkler, 2018 which followed the same idea but used genetic programming instead of particle swarm optimization."/>
@@ -58,7 +48,9 @@ I applied the Industrial Benchmark (IB) to that approach thereby following a met
 
 
 
-<meta property="article:published_time" content="2019-01-30 00:00:00 &#43;0000 UTC" />
+
+    <meta property="article:published_time" content="2019-01-30 00:00:00 &#43;0000 UTC" />
+
 
 
 
@@ -77,7 +69,7 @@ I applied the Industrial Benchmark (IB) to that approach thereby following a met
         
             <span class="logo__mark">></span>
             <span class="logo__text">$ cd /home/</span>
-            <span class="logo__cursor"></span>
+            <span class="logo__cursor" style=""></span>
         
     </div>
 </a>
@@ -98,7 +90,7 @@ I applied the Industrial Benchmark (IB) to that approach thereby following a met
                 </span>
             
 
-            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
@@ -126,12 +118,9 @@ I applied the Industrial Benchmark (IB) to that approach thereby following a met
             <div class="post-content">
                 <p>In January of 2019 I implemented a project to benchmark the approach to controller policy optimization proposed by <em>Hein et al., 2017</em> called <em>Fuzzy Particle Swarm Reinforcement Learning</em> (FPSRL).
 In that paper, the authors propose a method to generate <em>interpretable</em> policies for industrial controllers that are as performant as non-interpretable policies by using neural networks and particle swarm optimization.</p>
-
 <p>I applied the <em>Industrial Benchmark</em> (IB) to that approach thereby following a methodology the authors themselves used to benchmark a similar approach in <em>Hein, Udluft, Runkler, 2018</em> which followed the same idea but used genetic programming instead of particle swarm optimization.
 I wrote the code to benchmark that approach in python.</p>
-
 <p><a href="https://github.com/felixlinker/IB_FPSRL"><em>Link to the github repository (with references)</em></a></p>
-
 <p><a href="/doc/ib_fpsrl.pdf"><em>Results paper</em></a></p>
 
             </div>
@@ -151,17 +140,12 @@ I wrote the code to benchmark that approach in python.</p>
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2019</span>
+            <span>&copy; 2020</span>
             
                 <span><a href="http://felixlinker.de/">Felix Linker</a></span>
             
             <span></span>
             <span> <a href="http://felixlinker.de/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
-        </div>
-    </div>
-    <div class="footer__inner">
-        <div class="footer__content">
-
         </div>
     </div>
     <div class="footer__inner">
@@ -180,7 +164,7 @@ I wrote the code to benchmark that approach in python.</p>
 
 
 
-<script type="text/javascript" src="/bundle.min.9e52e68b082cf2a30a7fead88260edb8818fbd7f7831e39674917d4539ec75df41ba88eaddfbd916594ab4fb2a31913b46cf2d6094cf80381edb8c632512a8ca.js" integrity="sha512-nlLmiwgs8qMKf&#43;rYgmDtuIGPvX94MeOWdJF9RTnsdd9Buojq3fvZFllKtPsqMZE7Rs8tYJTPgDge24xjJRKoyg=="></script>
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
 
 
 

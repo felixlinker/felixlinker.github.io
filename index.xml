@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Felix Linker</title>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/msc_riscv/</guid>
-      <description>I started writing on my master&amp;rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
+      <description>I started writing on my master&#39;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
 I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties.</description>
     </item>
     
@@ -27,7 +27,7 @@ I program nuXmv in such a way that it automatically generates me traces of instr
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/jelia/</guid>
-      <description>In May of 2019 I was lucky to attend the 16th Edition of the European Conference on Logics in Artificial Intelligence in Rende, Italy to present the paper that my former supervisor, Ringo Baumann, and me wrote about the results of my bachelor&amp;rsquo;s thesis.
+      <description>In May of 2019 I was lucky to attend the 16th Edition of the European Conference on Logics in Artificial Intelligence in Rende, Italy to present the paper that my former supervisor, Ringo Baumann, and me wrote about the results of my bachelor&#39;s thesis.
 Link to the research gate entry of the paper</description>
     </item>
     
@@ -47,7 +47,7 @@ I applied the Industrial Benchmark (IB) to that approach thereby following a met
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/ba_plato/</guid>
-      <description>In the summer of 2018 I wrote my second bachelor&amp;rsquo;s thesis - this time it was for my studies of Philosophy. It was about two works of Plato: the Republic and Phaido. I investigated how the fields of ontology, normativity or ethics and epistemology are linked in the philosophy of Plato.
+      <description>In the summer of 2018 I wrote my second bachelor&#39;s thesis - this time it was for my studies of Philosophy. It was about two works of Plato: the Republic and Phaido. I investigated how the fields of ontology, normativity or ethics and epistemology are linked in the philosophy of Plato.
 I wrote this thesis in German but if you still are interested in its content, you can find a download link below.</description>
     </item>
     
@@ -57,7 +57,7 @@ I wrote this thesis in German but if you still are interested in its content, yo
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/coriolis/</guid>
-      <description>In July of 2018 I authored my first commit to the open source project coriolis. coriolis is an online service maintained by the players of the MMORPG-style space-sim Elite: Dangerous. It allows players to plan how they want to equip and modify their space-ships and give them detailed statistics. It&amp;rsquo;s a plain front-end JavaScript project that is written with React.
+      <description>In July of 2018 I authored my first commit to the open source project coriolis. coriolis is an online service maintained by the players of the MMORPG-style space-sim Elite: Dangerous. It allows players to plan how they want to equip and modify their space-ships and give them detailed statistics. It&#39;s a plain front-end JavaScript project that is written with React.
 In October of 2018 the team of coriolis decided that the code-base needed a major re-work.</description>
     </item>
     
@@ -67,7 +67,7 @@ In October of 2018 the team of coriolis decided that the code-base needed a majo
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/ba_agm/</guid>
-      <description>In the summer of 2017 I wrote my bachelor&amp;rsquo;s thesis for Computer Science. It was all about Argumenation Frameworks and the AGM theory of belief revision, i.e. formal logics, knowledge representation and non-monotonic reasoning.
+      <description>In the summer of 2017 I wrote my bachelor&#39;s thesis for Computer Science. It was all about Argumenation Frameworks and the AGM theory of belief revision, i.e. formal logics, knowledge representation and non-monotonic reasoning.
 I enhanced on the works of R. Baumann and G. Brewka who gave implementations for expansion and revision in Dung Logics for Argumentation Frameworks. I was able to show that there is no contraction operator in Dung Logics.</description>
     </item>
     
@@ -86,7 +86,7 @@ I enhanced on the works of R. Baumann and G. Brewka who gave implementations for
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/twig/</guid>
-      <description>While I was employed at the ASKW in 2016, I modelled and developed a RDF-benchmark generator that aims at providing the user with a pseudo-random true-to-life RDF-dataset to test RDF-algorithms with. It can be configured via a seed and simulates twitter the results of which are stored in RDF.
+      <description>While I was employed at the AKSW in 2016, I modelled and developed a RDF-benchmark generator that aims at providing the user with a pseudo-random true-to-life RDF-dataset to test RDF-algorithms with. It can be configured via a seed and simulates twitter the results of which are stored in RDF.
 Link to the github-repository</description>
     </item>
     
