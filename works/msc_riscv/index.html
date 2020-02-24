@@ -5,8 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Felix Linker ">
-<meta name="description" content="I started writing on my master&amp;rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
-I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties." />
+<meta name="description" content="I started writing on my master&amp;rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
+This is the thesis&amp;rsquo;s abstract:
+ This thesis proposes an approach to formally verifying instruction set architectures (ISAs) against higher-level properties using the model checker nuXmv." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -33,21 +34,23 @@ I program nuXmv in such a way that it automatically generates me traces of instr
 
 
 <meta itemprop="name" content="Master&#39;s thesis: Formal verification of an instruction set architecture">
-<meta itemprop="description" content="I started writing on my master&rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
-I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties.">
+<meta itemprop="description" content="I started writing on my master&rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
+This is the thesis&rsquo;s abstract:
+ This thesis proposes an approach to formally verifying instruction set architectures (ISAs) against higher-level properties using the model checker nuXmv.">
 
 
 <meta itemprop="datePublished" content="2019-07-11T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-07-11T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="100">
+<meta itemprop="wordCount" content="286">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Master&#39;s thesis: Formal verification of an instruction set architecture"/>
-<meta name="twitter:description" content="I started writing on my master&rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
-I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties."/>
+<meta name="twitter:description" content="I started writing on my master&rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
+This is the thesis&rsquo;s abstract:
+ This thesis proposes an approach to formally verifying instruction set architectures (ISAs) against higher-level properties using the model checker nuXmv."/>
 
 
 
@@ -122,12 +125,30 @@ I program nuXmv in such a way that it automatically generates me traces of instr
             <div class="post-content">
                 <p>I started writing on my master&rsquo;s thesis for Computer Science in May of 2019.
 This thesis links to my internship at Arm in the winter of 2018.
-In this thesis, I develop a minimal, <a href="https://riscv.org/">RISC-V</a>-inspired architecture and try to use the model checker <a href="https://nuxmv.fbk.eu/">nuXmv</a> to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.</p>
+In this thesis, I develop a minimal, <a href="https://riscv.org/">RISC-V</a>-inspired architecture and use the model checker <a href="https://nuxmv.fbk.eu/">nuXmv</a> to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.</p>
 
-<p>I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties.
-These security properties are expressed in LTL and implement information flow policies.</p>
+<p>This is the thesis&rsquo;s abstract:</p>
+
+<blockquote>
+<p>This thesis proposes an approach to formally verifying instruction set architectures (ISAs) against higher-level properties using the model checker nuXmv.
+This was first proposed by [Rei17].
+We use nuXmv to perform information flow tracking at architecture level.
+Thus, the higher-level properties will be given by information flow properties.
+The concepts behind information flow tracking stem from [Fer+17] where information flow control (IFC) was applied to hardware description languages (HDLs).</p>
+
+<p>The threat model that is assumed in this thesis is that user-mode is adversarial to machine-mode and wholly compromised.
+In this scenario, we consider whether a) user-mode can gain access to confidential data held by machine-mode and b) user-mode can gain control over machine-mode.
+Timing channels are excluded.</p>
+
+<p>We develop a simplified version of the RISC-V architecture, the MINRV8 architecture, to which the aforementioned approach will be applied.
+Three information flow properties applying to this architecture will be developed and verified using nuXmv.
+The result of this are eight assumptions that grant the absence of any information flow property violation by any program running on the MINRV8 architecture.
+These results are tested by showing that our approach can detect the cache poisoning [WR09] and SYSRET vulnerabilities [12a,Dun12] applying to the x86 architecture without any manual intervention besides the implementation of the vulnerabilities.</p>
+</blockquote>
 
 <p><a href="https://github.com/felixlinker/ifc-rv-thesis/"><em>Link to the github repository</em></a></p>
+
+<p><a href="/doc/msc_thesis.pdf"><em>Link to the thesis</em></a></p>
 
             </div>
         </article>

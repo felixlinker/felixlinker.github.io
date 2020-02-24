@@ -17,8 +17,9 @@
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>http://felixlinker.de/works/msc_riscv/</guid>
-      <description>I started writing on my master&amp;rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and try to use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
-I program nuXmv in such a way that it automatically generates me traces of instructions that violate certain security properties.</description>
+      <description>I started writing on my master&amp;rsquo;s thesis for Computer Science in May of 2019. This thesis links to my internship at Arm in the winter of 2018. In this thesis, I develop a minimal, RISC-V-inspired architecture and use the model checker nuXmv to either find vulnerabilities in the instruction set specification itself or to establish rules for programmers of the architecture.
+This is the thesis&amp;rsquo;s abstract:
+ This thesis proposes an approach to formally verifying instruction set architectures (ISAs) against higher-level properties using the model checker nuXmv.</description>
     </item>
     
     <item>
